@@ -1,0 +1,11 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=cf1c96f308628f34484f4720215c30b8&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="Container" style="flex-grow: 1; background-color: rgb(0, 0, 0); opacity: 1;">
+        <ui:Label text="GAME OVER" name="Heading" tabindex="-1" selectable="true" focusable="true" class="header" style="-unity-font-definition: url(&quot;project://database/Assets/Fonts/BoldPixels/Assets/font/BoldPixels.otf?fileID=12800000&amp;guid=19b9bfe81b147ba4f91b639e7c1b07d9&amp;type=3#BoldPixels&quot;); font-size: 71px; -unity-text-align: middle-center; top: 0%; justify-content: flex-start; align-self: center; margin-top: 21%; color: rgb(136, 241, 235); -unity-text-generator: advanced;"/>
+        <ui:Label text="you died" name="Death" class="subheader" style="-unity-text-align: middle-center; position: relative; font-size: 21px;"/>
+        <ui:VisualElement name="Buttons" style="flex-grow: 1; flex-direction: row; align-self: auto; align-items: auto; align-content: auto; opacity: 1; flex-wrap: nowrap; min-height: auto; max-height: 16%; justify-content: space-around; width: 550px; margin-right: auto; margin-left: auto; margin-top: -9px;">
+            <ui:Button text="RESTART" name="RestartButton" class="multiButton" style="-unity-text-generator: advanced; -unity-text-auto-size: best-fit 10px 100px;"/>
+            <ui:Button text="QUIT" name="QuitButton" class="multiButton" style="-unity-text-generator: advanced; -unity-text-auto-size: none;"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,56 @@
+:root {
+}
+
+.header {
+    -unity-font-definition: url("project://database/Assets/Fonts/BoldPixels/Assets/font/BoldPixels.ttf?fileID=12800000&guid=71a55b0538d48354b87afab937af74d2&type=3#BoldPixels");
+    font-size: 54px;
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    letter-spacing: 27px;
+    -unity-text-auto-size: best-fit 10px 100px;
+}
+
+.subheader {
+    -unity-font-definition: url("project://database/Assets/Fonts/BoldPixels/Assets/font/BoldPixels.otf?fileID=12800000&guid=19b9bfe81b147ba4f91b639e7c1b07d9&type=3#BoldPixels");
+    color: rgb(144, 255, 249);
+    text-shadow: 0 0 0 rgb(29, 95, 89);
+    -unity-text-auto-size: none;
+}
+
+Button {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    -unity-font-definition: url("project://database/Assets/Fonts/BoldPixels/Assets/font/BoldPixels.otf?fileID=12800000&guid=19b9bfe81b147ba4f91b639e7c1b07d9&type=3#BoldPixels");
+    color: rgb(103, 193, 179);
+    font-size: 33px;
+    text-shadow: 2.3px 2px 0 rgb(16, 80, 74);
+    background-color: rgba(68, 128, 105, 0.71);
+    width: auto;
+    position: relative;
+    left: auto;
+    -unity-text-align: middle-center;
+    scale: 1 1;
+    transition-duration: 0.5s;
+}
+
+Button:hover {
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    font-size: 40px;
+    scale: 1.5 1.5;
+    background-color: rgb(103, 193, 179);
+    -unity-font-definition: url("project://database/Assets/Fonts/BoldPixels/Assets/font/BoldPixels.ttf?fileID=12800000&guid=71a55b0538d48354b87afab937af74d2&type=3#BoldPixels");
+    color: rgb(55, 102, 86);
+}
+
+.multiButton {
+    width: 186px;
+    height: auto;
+    align-self: center;
+    flex-direction: column-reverse;
+    font-size: 33px;
+}
